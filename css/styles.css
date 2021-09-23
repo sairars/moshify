@@ -5,6 +5,7 @@
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
 }
+/* Typography */
 
 html {
     font-size: 62.5%;
@@ -42,7 +43,7 @@ p {
     body {
         font-size: 1.8rem;
     }
-    
+
     h1 {
         font-size: 8rem;
     }
