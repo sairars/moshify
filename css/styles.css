@@ -153,4 +153,22 @@ a {
     }
 }
 
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+    fill: var(--color-primary);
+}
+
+.icon-container {
+    background-color: #f3f9fa;
+    border-radius: 100px;
+    display: inline-flex;
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
