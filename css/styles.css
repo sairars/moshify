@@ -121,6 +121,7 @@ a {
 
 .badge--small {
     font-size: 1.6rem;
+    padding: 0.8rem 1.2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -134,6 +135,7 @@ a {
 }
 
 /* Lists */
+
 .list {
     color: var(--color-headings);
     list-style: none;
@@ -153,15 +155,18 @@ a {
 .list--tick .list__item {
     margin-bottom: 2rem;
     padding-left: 1.2rem;
+    letter-spacing: 1px;
 }
 
 @media screen and (min-width:1024px) {
-    .list-tick .list-item {
-        padding-left: 0.9rem;
+    .list--tick .list__item {
+        padding-left: 0.1rem;
+        letter-spacing: 0px;
     }
 }
 
 /* Icons */
+
 .icon {
     fill: var(--color-primary);
     height: 40px;
@@ -179,6 +184,7 @@ a {
 }
 
 /* Buttons */
+
 .btn {
     background: none;
     border-radius: var(--border-radius);
@@ -245,6 +251,7 @@ a {
 }
 
 /* Inputs */
+
 .input {
     border-radius: var(--border-radius);
     border: 1px solid var(--color-border);
@@ -279,5 +286,86 @@ a {
 .input-group .btn {
     margin: 5px 3px;
 }
+
+/* Cards */
+
+.card {
+    border-radius: 7px;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+}
+
+.card__header, .card__body {
+    padding: 2.5rem 3.5rem;
+}
+
+.card--primary .card__header {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.card--secondary .card__header {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.card--secondary .badge--secondary {
+    background: #02cdf1;
+}
+
+/* Plans */
+
+.plan__name {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.plan__price {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.plan__billing-cycle {
+    font-weight: 400;
+    opacity: 0.7;
+    margin-right: 1.5rem;
+}
+
+.plan__description {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+}
+
+/* .card__body .list__item {
+    letter-spacing: 1px;
+} */
+
+@media screen and (min-width:1024px) {
+
+    .card__header, .card__body {
+        padding: 1.5rem 2.5rem;
+    }
+    .plan__name {
+        font-size: 1.4rem;
+    }
+
+    .plan__price {
+        font-size: 5rem;
+    }
+
+    .plan__billing-cycle {
+        font-size: 1.6rem;
+    }
+
+    .plan__description {
+        font-size: 1.5rem;
+    }
+}
+
 
 
