@@ -810,3 +810,14 @@ a {
     gap: 8rem 5rem;
 }
 
+/* Features*/
+
+.feature {
+    gap: 4rem 2rem;
+}
+.feature__heading {
+    margin-top: 1;
+}
+.feature__image {
+    width: 100%;
+}
