@@ -913,8 +913,8 @@ a {
 
 .footer img {
     /* TODO: Consider refactoring this and applying this rule to all images. */
-    width: 100%;
     max-width: 230px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -948,4 +948,10 @@ a {
     .footer__copyright {
         font-size: 1.5rem;
     }
+}
+
+/* Sign up callouts */
+
+.callout-signup {
+    transform: translateY(5rem);
 }
